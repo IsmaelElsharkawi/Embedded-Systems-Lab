@@ -34,8 +34,8 @@ int main(void)
 	
 	
 	SYSCTL->RCGCGPIO |= 0x04;
-	GPIOC->DIR = 0x0e;
-	GPIOC->DEN = 0x1f;
+	GPIOC->DIR = 0xff;
+	GPIOC->DEN = 0xff;
 	
 	
 	//while((GPIOF->DATA & 0x10)==0){}
@@ -65,16 +65,16 @@ int main(void)
 			}		
 		}
 			if(delay_on>0){
-				GPIOC->DATA =0x02;
-				temp = 0x02&GPIOC->DATA;
-				GPIOF->DATA = temp; // turn on red LED
+				GPIOC->DATA =0x128;
+				//temp = 0x02&GPIOC->DATA;
+				//GPIOF->DATA = temp; // turn on red LED
 				delayMs(delay_on);
 			}
 		
 			if(delay_off>0){ 
 				GPIOC->DATA =0;
-				temp = 0x02&GPIOC->DATA;
-				GPIOF->DATA = temp;
+				//temp = 0x02&GPIOC->DATA;
+				//GPIOF->DATA = temp;
 				delayMs(delay_off);
 			}
 			
