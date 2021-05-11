@@ -1,0 +1,19 @@
+Partlist exported from C:/Users/Ismael/Documents/EAGLE/projects/Experiment 1/schematic 1.sch at 5/7/2021 11:50 PM
+
+Qty Value                 Device                  Package          Parts          Description                                  DESIGNER MF MPN OC_FARNELL OC_NEWARK POPULARITY REV
+1                         MCP1700INLINE           TO92-INLINE      IC2            VOLTAGE REGULATOR                                                                               
+1                         PINHD-1X15-CB           1X15-CB          JP1            PIN HEADER                                                                                      
+2                         PINHD-1X8-3.5MM         1X08-3.5MM       JP2, JP3       PIN HEADER                                                                                      
+1                         SWITCH_PUSHBUTTONEVQ-PE TACT_PANA-EVQ    SW1            Buttons                                                                                         
+1                         USBMINIB                USB-MINIB        CN1            USB Connectors                                                                                  
+1   0.1microF             C2,5-3                  C2.5-3           C7             CAPACITOR                                                                         38            
+4   100nF                 C2,5-3                  C2.5-3           C1, C2, C3, C5 CAPACITOR                                                                         38            
+1   10kOhm                FLIPFLOP-RES            0805-THM         R2             Flip Flop resistor                                                                              
+2   10microF              C2,5-3                  C2.5-3           C4, C6         CAPACITOR                                                                         38            
+2   20pF                  C2,5-3                  C2.5-3           C8, C9         CAPACITOR                                                                         38            
+1   390                   FLIPFLOP-RES            0805-THM         R1             Flip Flop resistor                                                                              
+1   8MHz                  CRYSTAL68SMX            86SMX            Q1             CRYSTAL                                                      6344860    unknown                 
+1   CORTEX_JTAG_DEBUG_PTH CORTEX_JTAG_DEBUG_PTH   2X5-PTH-1.27MM   J1             Cortex Debug Connector - 10 pin                                                                 
+1   EG1213                EG1213                  EG1213           S1             E-Switch right-angle slide SPDT Part #EG1213                                                    
+1   FRAME-LETTER          FRAME-LETTER            CREATIVE_COMMONS FRAME1         Schematic Frame - Letter                                                                        
+1   STM32F10XCXT6         STM32F10XCXT6           TQFP48           IC1            ST STM32F101/103 48pin LQFP                                                                     
